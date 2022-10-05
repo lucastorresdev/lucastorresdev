@@ -1,5 +1,7 @@
 <h1 align="center">Hola 👋, Soy Lucas</h1>
-<h3 align="center">Estoy estudiando desarrollo web en la Universidad Nacional de la Matanza</h3>
+<h3 align="center">Estoy estudiando desarrollo web en la Universidad Nacional de la Matanza y me encuentro en la busqueda de mi primer trabajo como desarrollador</h3>
+
+
 
 - 🌱 Actualmente estoy aprendiendo **Spring y PHP** en la facultad aplicando el patron de arquitectura **MVC**
 
