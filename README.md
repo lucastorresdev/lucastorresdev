@@ -1,7 +1,7 @@
 <h1 align="center">Hola 👋, Soy Lucas</h1>
 <h3 align="center">Estoy estudiando desarrollo web en la Universidad Nacional de la Matanza</h3>
 
-- 🌱 Actualmente estoy aprendiendo **Spring y PHP** en la facultad
+- 🌱 Actualmente estoy aprendiendo **Spring y PHP** en la facultad aplicando el patron de arquitectura **MVC**
 
 - 👨‍💻 Mi portfolio lo podes encontrar en [lucastorres.ar](lucastorres.ar)
 
