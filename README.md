@@ -5,7 +5,7 @@
 
 - 🌱 Actualmente estoy aprendiendo **Spring y PHP** en la facultad aplicando el patron de arquitectura **MVC**
 
-- 👨‍💻 Mi portfolio lo podes encontrar en [lucastorres.ar](lucastorres.ar)
+- 👨‍💻 Mi portfolio lo podes encontrar en (lucastorres.ar)
 
 <h3 align="left">Contactame en:</h3>
 <p align="left">
