@@ -9,7 +9,7 @@
 
 <h3 align="left">Contactame en:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/lucastorresdev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="lucastorresdev" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/lucastorresdev" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="lucastorresdev" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Tecnologías que utilizo:</h3>
