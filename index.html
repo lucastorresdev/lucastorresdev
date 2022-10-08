@@ -6,22 +6,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/normalize.css" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css?v1.0.0" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Roboto&display=swap"
     rel="stylesheet" />
+  <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+
   <title>Lucas Torres</title>
 </head>
 
 <body class="overflowVisible">
   <header>
-    <nav class="nav">
+    <nav id="nav" class="nav">
+
 
       <ul class="flex flex--nav menuEscondido">
         <li><a class="aMenu" href="#sobreMi">Sobre mi</a></li>
         <li><a class="aMenu2" href="#proyectos">Proyectos</a></li>
-        <li><a class="aMenu3" href="#roadmap">roadmap learning</a></li>
+        <li><a class="aMenu3" href="#roadmap">learning roadmap</a></li>
       </ul>
 
       <div class="menu">
@@ -31,7 +34,20 @@
       </div>
     </nav>
   </header>
-  <main class="main">
+  <main>
+
+    <a class="displayNone flecha" href="#nav">
+      <svg class="flecha" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up-circle"
+        width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#64ffda" fill="none"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <circle cx="12" cy="12" r="9" />
+        <line x1="12" y1="8" x2="8" y2="12" />
+        <line x1="12" y1="8" x2="12" y2="16" />
+        <line x1="16" y1="12" x2="12" y2="8" />
+      </svg>
+    </a>
+
     <section id="home">
       <div class="container grid">
         <div class="presentacion">
@@ -62,37 +78,142 @@
           </div>
           <div class="flex flex--rrhh flex--rrhh-mail">
             <p class="p--rrhh">lucasltorres1997@gmail.com</p>
-            <svg class="copy" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-floppy"
-              width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#8892B0" fill="none"
-              stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <path d="M6 4h10l4 4v10a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2" />
-              <circle cx="12" cy="14" r="2" />
-              <polyline points="14 4 14 8 8 8 8 4" />
-            </svg>
+            <div class="copy">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copy" width="28" height="28"
+                viewBox="0 0 24 24" stroke-width="1.5" stroke="#8892B0" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <rect x="8" y="8" width="12" height="12" rx="2" />
+                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2" />
+              </svg>
+            </div>
           </div>
-          <div class="button">
-            <a href="cv.pdf" target="_blank">MI CV</a>
-          </div>
+          <p class="displayNone2">¡copiado!</p>
+          <a class="aBoton" href="cv.pdf" target="_blank">
+            <div class="button">
+              MI CV
+            </div>
+          </a>
         </div>
       </div>
     </section>
 
     <section id="sobreMi">
       <div class="container">
+        <h4>Sobre mi</h4>
+        <p>
+          ¡Buenas! Mi nombre es Lucas Torres y empecé a estudiar desarrollo web en la Unlam en marzo de 2021.
+          Mi primer contacto con la programación fue en la secundaria, ya que estudié en una escuela técnica con
+          orientación en informática, pero en ese momento no le prestaba mucha atención porque había decido que después
+          terminar la secundaria iba a estudiar musica, y así fue. Estuve estudiando guitarra y piano en un
+          conservatorio
+          hasta el 2020, después de eso fue cuando decidí que iba a arrancar la tecnicatura de la Unlam.
+        </p>
+        <p>
+          En un principio me estaba enfoncando más en el frontend, pero de a poco fui conociendo el backend y este
+          empezó a ganar terreno. Es por eso que ahora mismo las búsquedas laborales a las que aplico son principalmente
+          a las de bakcend.
+        </p>
+        <P>
+          Las tecnologías en las que me estoy enfocando son: <span> Java, Spring, HTML, CSS, Javascript, MySql y
+            Git.</span>
+        </P>
+        <p>
+          Tengo muchas ganas de encontrar mi primer trabajo para poder enfrentarme a proyectos reales, porque sé que eso
+          me va
+          a ayudar mucho a crecer como desarrollador.
+        </p>
+        <p>
+          Después de terminar la tecnicatura voy a estudiar ciencias de la computación en la UBA. Estuve buscando
+          información sobre esa carrera y me di cuenta de que voy a poder profundizar mucho mas mis conocimientos como
+          desarrollador haciendo esta licenciatura.
+        </p>
       </div>
     </section>
     <section id="proyectos">
-      <div class="container"></div>
+      <div class="container">
+        <h4>Proyectos</h4>
+
+        <p>Tengo pensado dos proyectos principales a los cuales quiero ir agregandoles funcionalidades constantemente en
+          lo que queda del año, van a poder ver mas sobre ellos mas abajo.
+        </p>
+        <p>
+          Por otro lado también tengo varios miniproyectos
+          que no los encuentro tan relevantes para ponerlos en mi portfolio pero los pueden ver en <a
+            href="https://github.com/lucastorresdev/" target="_blank" class="link"> mi github.</a>
+        </p>
+        <div class="card">
+          <h3>Librería con red social</h3>
+          <div>
+            <img src="img/libreria.webp" alt="">
+          </div>
+          <div>
+            <div>
+              <p>
+                La idea de este proyecto es crear una tienda de libros que esté asociada con una red social enfocada en
+                libros. Es algo muy similar a lo que hace amazon con goodreads.
+              </p>
+            </div>
+            <div class="flex flex--rrhh">
+              <a class="aBoton" href="">
+                <div class="button">
+                  VER PAGINA
+                </div>
+              </a>
+              <a class="aBoton" href="">
+                <div class="button">
+                  REPOSITORIO
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <p>Tecnologias:</p>
+
+          </div>
+        </div>
+
+      </div>
     </section>
     <section id="roadmap">
-      <div class="container"></div>
+      <div class="container">
+        <h4>Learning Roadmap</h4>
+        <p>
+          Ademas de dedicarme a hacer crecer mis proyectos principales, quiero mejorar mi nivel de
+          javascript y de lógica de programación. Para esto voy a ir haciendo dos tipos de challenges.
+        </p>
+        <p>
+          Por un lado quiero hacer hacer el <a class="link" href="https://javascript30.com/"
+            target="_blank">javascript30 challenge
+            de Wes Bos</a>.
+          Este challenge consiste en hacer un miniproyecto por día utilizando solamente javascript nativo.
+        </p>
+        <p>
+          Y para mejorar mi lógica de programación voy a hacer los <a class="link"
+            href="https://retosdeprogramacion.com/semanales2022" target="_blank"> retos semanales de MoureDev</a> . De
+          momento hay unos 40
+          retos, pero se va agregando un reto por semana.
+        </p>
+        <p>Mi avance en los desafíos:</p>
+        <h3>javascript30</h3>
+        <div class="barra">
+          <div class="progresoJS">
+
+          </div>
+        </div>
+        <h3>Retos Semanales</h3>
+        <div class="barra">
+          <div class="progresoLogica">
+
+          </div>
+        </div>
+      </div>
     </section>
   </main>
   <footer></footer>
 </body>
 
-<script src="js/script.js"></script>
+<script src="js/script.js?v1.0.0"></script>
 
 
 </html>
